@@ -11,3 +11,11 @@ Biltong can be used both in the browser and on the server, and will register its
 ### Usage
 
 All functions are in the global object `Biltong`.  I haven't got around to setting up a build to process the API docs; check the source.
+
+
+
+### Changelog
+
+#### 0.3
+
+- updated to run properly in Electron (Atom). 
