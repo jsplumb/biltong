@@ -1,6 +1,6 @@
 {
     "name": "biltong",
-    "version": "0.3",
+    "version": "0.3.0",
     "description": "Geometry functions",
     "main": "src/biltong-0.3.js",
     "repository": {
