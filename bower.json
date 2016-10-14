@@ -1,0 +1,19 @@
+{
+    "name": "Biltong",
+    "version": "0.3",
+    "ignore": [
+        "html",
+        "test",
+        "*.html",
+        "node_modules",
+        "*LICENSE.txt"
+    ],
+    "main": [
+        "src/biltong-0.3.js"
+    ],
+    "authors": [
+        "jsPlumb <hello@jsplumbtoolkit.com>"
+    ],
+    "description": "Geometry functions",
+    "license": "MIT/GPL2"
+}
