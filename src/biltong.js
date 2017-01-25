@@ -1,9 +1,9 @@
 /**
- * Biltong v0.3
+ * Biltong v0.4.0
  *
  * Various geometry functions written as part of jsPlumb and perhaps useful for others.
  *
- * Copyright (c) 2016 jsPlumb
+ * Copyright (c) 2017 jsPlumb
  * https://jsplumbtoolkit.com
  *
  * Permission is hereby granted, free of charge, to any person
@@ -32,7 +32,13 @@
     "use strict";
     var root = this;
 
-    var Biltong = root.Biltong = {};
+    var Biltong = root.Biltong = {
+        version:"0.4.0"
+    };
+
+    if (typeof exports !== "undefined") {
+        exports.Biltong = Biltong;
+    }
 
     var _isa = function(a) { return Object.prototype.toString.call(a) === "[object Array]"; },
         _pointHelper = function(p1, p2, fn) {

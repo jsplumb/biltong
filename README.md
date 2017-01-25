@@ -16,6 +16,11 @@ All functions are in the global object `Biltong`.  I haven't got around to setti
 
 ### Changelog
 
-#### 0.3
+#### 0.4.0
+
+- remove version number from file name
+- publish to npm
+
+#### 0.3.0
 
 - updated to run properly in Electron (Atom). 
