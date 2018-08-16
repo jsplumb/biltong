@@ -1,15 +1,16 @@
 {
     "name": "biltong",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Geometry functions",
-    "main": "src/biltong.js",
+    "main": "_build/biltong.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/jsplumb/biltong.git"
     },
     "files": [
-        "src/biltong.js"
+        "_build/biltong.js", "_build/biltong.d.ts"
     ],
+    "types":"_build/biltong.d.ts",
     "scripts":{
         "tsc":"tsc"
     },
