@@ -1,13 +1,21 @@
 {
     "name": "biltong",
-    "version": "0.4.0",
+    "version": "1.0",
     "description": "Geometry functions",
     "main": "src/biltong.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/jsplumb/biltong.git"
     },
-    "files":[ "src/biltong.js" ],
+    "files": [
+        "src/biltong.js"
+    ],
+    "scripts":{
+        "tsc":"tsc"
+    },
     "author": "jsPlumb <hello@jsplumbtoolkit.com>",
-    "license": "MIT/GPL2"
+    "license": "MIT/GPL2",
+    "devDependencies": {
+        "typescript": "^3.0.1"
+    }
 }

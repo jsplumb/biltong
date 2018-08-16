@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "outDir": "_build",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration":true,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+
+  },
+  "files":[ "ts/biltong.ts" ]
+}
