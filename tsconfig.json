@@ -13,5 +13,5 @@
     "suppressImplicitAnyIndexErrors": true
 
   },
-  "files":[ "ts/biltong.ts" ]
+  "files":[ "src/biltong.ts" ]
 }

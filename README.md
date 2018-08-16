@@ -16,6 +16,10 @@ All functions are in the global object `Biltong`.  I haven't got around to setti
 
 ### Changelog
 
+#### 1.0.0
+
+- Ported to Typescript
+
 #### 0.4.0
 
 - remove version number from file name
